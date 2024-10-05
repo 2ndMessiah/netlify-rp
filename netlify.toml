@@ -1,3 +1,9 @@
+[[headers]]
+  for = "/*"
+    [headers.values]
+    Access-Control-Allow-Origin = "*"
+    Access-Control-Allow-Headers = "*"
+    Access-Control-Allow-Methods = "*"
 [build]
   functions = "functions"
 
@@ -5,3 +11,4 @@
   from = "/*"
   to = "/.netlify/functions/proxy"
   status = 200
+  force = true
