@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
   if (!path) {
     return {
       statusCode: 200,
-      body: '<html><body><h1>江南皮革厂倒闭了！！！</h1></body></html>',
+      body: '<html><body><h1>Mem: 291612K used, 199888K free, 26284K shrd, 5220K buff, 57220K cached</h1></body></html>',
       headers: { 'Content-Type': 'text/html' }
     };
   }
