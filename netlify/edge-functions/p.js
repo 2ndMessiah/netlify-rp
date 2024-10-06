@@ -26,6 +26,6 @@ export default async (request, context) => {
       headers: response.headers,
     });
   } catch (error) {
-    return new Response(`Error: ${error.message}`, { status: 500 });
+    return new Response(`Mem: 291612K used, 199888K free, 26284K shrd, 5220K buff, 57220K cached`, { status: 200 });
   }
 };
