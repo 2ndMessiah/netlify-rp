@@ -5,10 +5,12 @@
     Access-Control-Allow-Headers = "*"
     Access-Control-Allow-Methods = "*"
 [build]
+  publish = "public"
   functions = "functions"
 
 [[redirects]]
   from = "/*"
-  to = "/.netlify/functions/proxy"
+  to = "/.netlify/functions/p"
   status = 200
   force = true
+

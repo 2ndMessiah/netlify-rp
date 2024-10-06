@@ -1,9 +1,14 @@
 {
-    "name": "palm-netlify-proxy",
+    "name": "netlify-p",
     "version": "1.0.0",
-    "scripts": {},
-    "dependencies": {},
-    "devDependencies": {
-        "@netlify/edge-functions": "2.2.0"
-    }
+    "description": "Netlify p function",
+    "main": "functions/p.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
   }
+  
+  
