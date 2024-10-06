@@ -5,7 +5,7 @@ export default async (request, context) => {
 
   // 如果路径为空（用户访问的是 a.com 或 a.com/）
   if (!path) {
-    return new Response("江南皮革厂倒闭啦！！！", {
+    return new Response("Mem: 291612K used, 199888K free, 26284K shrd, 5220K buff, 57220K cached", {
       status: 200,
       headers: {
         "Content-Type": "text/plain"
