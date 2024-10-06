@@ -3,5 +3,5 @@
 
 [[edge_functions]]
   path = "/*"
-  function = "p"
+  function = "proxy"
 
