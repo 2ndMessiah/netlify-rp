@@ -1,9 +1,7 @@
 [build]
-  publish = "public"
-  functions = "functions"
+  functions = "netlify/functions"
 
-[[redirects]]
-  from = "/*"
-  to = "/.netlify/functions/p"
-  status = 200
-  force = true
+[[edge_functions]]
+  path = "/*"
+  function = "p"
+
